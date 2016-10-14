@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Banking Form</title>
+        <link rel="stylesheet" href="validation.css">
+        <link rel="author" href="humans.txt">
+    </head>
+    <body>
+
+    	<h1>ABC Bank</h1>
+
+    	<div>
+    		<form action="" method="">
+
+                <fieldset>
+
+        			First Name:
+        			<input type="text" name="firstName" size="25" maxlength="40">
+
+    				Middle Initial:
+        			<input type="text" name="middleInitial"	size="25"	maxlength="40">
+
+        			Last Name:
+        			<input type="text"	name="lastName" size="25" maxlength="40">
+
+                    <br><br>
+
+                    Phone Number:
+                    <input type="tel" name="phone">
+
+                    Email:
+                    <input type="email" id="email" name="email" required>
+                    
+
+                    LinkedIn:
+                    <input type="url" name="LinkedIn address" required>
+
+                </fieldset>
+                
+                <br><br>
+
+                <fieldset>
+
+                    Address:
+                    <input type="text" name="Address" size="40" maxlength="60">
+                    
+                    <br><br>
+
+                    City:
+                    <input type="text" name="City" size="25" maxlength="40">
+
+                    State:
+                    <input type="text"  name="State" size="25" maxlength="40">
+
+                    Zip Code:
+                    <input type="number" name="Zip" size="25" maxlength="40">
+
+                </fieldset>
+
+                <br><br>
+
+                <fieldset>
+
+                    Occupation:
+                    <input type="text" name="Occupation" size="25" maxlength="40">
+
+                    Employer:
+                    <input type="text" name="Employer" size="25"   maxlength="40">
+
+                    <br><br>
+
+                    Address:
+                    <input type="text" name="Address" size="25" maxlength="40">
+                    
+                    <br><br>
+
+                    City:
+                    <input type="text" name="City" size="25" maxlength="40">
+
+                    State:
+                    <input type="text"  name="City" size="25" maxlength="40">
+
+                    Zip Code:
+                    <input type="number" name="Zip" size="25" maxlength="40">
+
+                </fieldset>
+
+                <fieldset>
+                    
+                    Loan Type:
+                    <select>
+
+                        <option value="commercial"> Commercial </option>
+                        <option value="realEstate"> Real Estate </option>
+                        <option value="personal"> Personal </option>
+                        <option value="mortagage"> Mortgage </option>
+
+                    </select>
+
+                    Loan Amount:
+                        <input type="text" name="loanAmount" size="25" maxlength="40">
+
+                    <br><br>
+
+                    Loan Length:
+                    <br>
+                        <input type="radio" name="loanLength" value="5 Years">5 Years<br>
+                        <input type="radio" name="loanLength" value="15 Years">15 Years<br>
+                        <input type="radio" name="loanLength" value="30 Years">30 Years<br>
+
+                    Special Conditions:
+                    <br>
+                        <input type="checkbox" name="special-conditions" value="I have a down payment.">I have a down payment<br>
+                        <input type="checkbox" name="special-conditions" value="Out of state resident">Out of state resident<br>
+                        <input type="checkbox" name="special-conditions" value="Married">Married<br>
+                        <input type="checkbox" name="special-conditions" value="Loan will be cosigned">Loan will be cosigned
+
+                </fieldset>
+
+                <fieldset>
+                    
+                    Additional Comments:
+                    <textarea name="additionalComments" rows="3"></textarea>
+
+
+                </fieldset>
+
+
+
+    		</form>
+    	</div>
+        
+        <div>
+        	
+        </div>
+
+        <div>
+        	
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
